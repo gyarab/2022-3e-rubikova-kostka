@@ -1,0 +1,29 @@
+    .button {
+        -fx-background-color:
+                #190061, /* outline kolem buttnu*/
+                linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+                linear-gradient(#20262b, #191d22),
+                radial-gradient(center 50% 0%, radius 100%, rgba(128, 128, 128,0.9), rgba(2, 2, 9,0.5)); /* první závorka záře na tlačítko ze shora druhá barva ze spoda opacity 0 */
+            -fx-background-radius: 5,4,3,5;
+            -fx-background-insets: 0,1,2,0;
+
+            -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+            -fx-font-family: "Arial";
+            -fx-text-fill: linear-gradient(white, #d0d0d0);
+            -fx-font-size: 28px;
+            -fx-padding: 10 20 10 20;
+    }
+
+    .pane{
+        -fx-background-image: url("../Images/background2.jpg");
+        -fx-background-position: center center;
+        -fx-background-size: cover;
+    }
+
+    .pozadiNadpisu{
+        -fx-background-color:#430ea1;
+    }
+
+    .sideContent{
+        -fx-background-color:#3f3e40;
+    }

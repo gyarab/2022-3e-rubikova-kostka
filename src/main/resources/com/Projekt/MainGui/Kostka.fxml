@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="1000.0" maxWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" styleClass="pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.KostkaController">
+   <children>
+      <Pane fx:id="subScenePane" prefHeight="880.0" prefWidth="1920.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutY="901.0" prefHeight="100.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <VBox layoutX="1797.0" layoutY="7.0" prefHeight="118.0" prefWidth="176.0" spacing="2.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="7.0">
+               <children>
+                  <Button fx:id="zamichatButton" mnemonicParsing="false" onAction="#zamichatButtonOnAction" prefHeight="52.0" prefWidth="184.0" text="cube_zamichat" />
+                  <Button mnemonicParsing="false" onAction="#solveOnAction" prefHeight="52.0" prefWidth="180.0" text="cube_vyresit" />
+               </children>
+            </VBox>
+            <HBox layoutX="14.0" layoutY="10.0" prefHeight="80.0" prefWidth="600.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="U" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="U'" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="D" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="D'" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="R" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="R'" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="L" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="L'" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="F" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="F'" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="B" />
+                        <Button mnemonicParsing="false" onAction="#moveButtonsOnAction" prefHeight="39.0" prefWidth="95.0" text="B'" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Button mnemonicParsing="false" onAction="#navratDoLobbyOnAction" prefHeight="52.0" prefWidth="74.0" text="◄" />
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="300.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Button fx:id="timerButton" mnemonicParsing="false" onAction="#timerOnAction" text="Start Timer" />
+            <Label fx:id="movesLabel" styleClass="redText" text="Tahu: 0">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="timerLabel" styleClass="redText" text="00:00">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@css/MainSheet.css" />
+      <URL value="@css/Kostka.css" />
+   </stylesheets>
+</AnchorPane>

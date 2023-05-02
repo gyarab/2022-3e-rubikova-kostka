@@ -1,0 +1,64 @@
+lobby_spustit: SPUSTIT
+lobby_tutorial: TUTORIAL
+lobby_nastaveni: NASTAVENI
+cube_zamichat: ZAMICHAT
+cube_vyresit: VYRESIT
+tutorial_nadpis: TUTORIAL
+tutorial_textFieldUp: Vítejte v tutoriálu na skládání Rubikovy kostky. Pokud jste nováček nejprve doporučujeme obeznámit se s obecnou notací pohybů kostky a až poté překročit k samotnému skládání.
+tutorial_nadpis2: NOTACE POHYBŮ
+tutorial_nadpis3: POPIS POSTUPU
+tutorial_spustit: SPUSTIT
+tutorial_text1: Pro notaci pohybů se používají první písmena jednotlivých stran v angličtině, tedy F jako front – přední strana a podobně. Obecné pohyby jsou brány otočení po směru hodinových ručiček, v protisměru se k písmenu strany přidá apostrof. Poté je tedy F otočení přední strany po směru hodinových ručiček a F‘ je otočení přední strany v protisměru. Dále se používají písmena x, y, z pro otočení kostky celé v její ose. X je osa strany R a L, Y stran U a D a Z je osa stran F a B.
+tutorial_text2: Tento postup je pouze jeden z mnoha používaných, většina z nich je však v základech velmi podobná. Prvními kroky se skládá první ze stran, která je nejčastěji vybírána bílá, ale můžete si vybrat, jakou chcete, tutoriál je napsán pro začátek s bílou stranou jakožto strana D.
+  Postup se dělí do 6 kroků. Prvním je složení bílého kříže, tedy musíte dojít do stádia, kdy na bílé straně budete mít tento obrazec - (obrázek – tutorial1)
+
+
+tutorial_text3: Toho docílíte tím, že bílé hrany dostanete kolem žlutého středu a poté podle postranních různě barevných středů (modrá, zelená, oranžová, červená) budete bílé hrany dosazovat k bílému středu pomocí otáčení žluté strany. Pokud tedy chcete bílou hranu s například červenou hranou dostat na správné místo, budete točit se žlutou stranu, dokud nebudete mít pod bílou hranou dvě červená pole a poté hranu přesunete na bílou stranu dvojitým otočením červené strany. (obrázek – tutorial2)
+
+tutorial_text4: Druhým krokem je dokončení bílé strany, tedy vložení bílých rohů. To se provádí za pomocí pohybů R U R' U', které slouží k otáčení příslušného rohu, pokud je špatně orientovaný, nebo k dosazení rohu na místo. Na konci tohoto kroku by kostka měla vypadat takto - (obrázek – tutorial3)
+
+tutorial_text5: Třetím krokem je složení druhé vrstvy. Ta se dokončí vložením správných krajů mezi správné strany. Pro tento krok existují dva případy a dva konkrétní postupy na to, abyste dostali konkrétní kraj z horní strany na své místo.
+
+tutorial_text6: (obrázek – tutorial4-1) U' L' U L U F U' F' (obrázek – tutorial4)
+
+tutorial_text7: (obrázek – tutorial5-1) U R U' R' U' F' U F (obrázek – tutorial5)
+
+tutorial_text8: Pokud se dostanete do situace, kdy máte kraj správně umístěný ale špatně orientovaný, použijte jeden z postupů k vložení jiného rohu, čímž vysvobodíte požadovanou kostičku.
+  Čtvrtým krokem je složení žlutého kříže. V tuto chvíli byste již měli mít složené obě patra a na žluté straně byste měli mít jeden z následujících obrazců, přičemž ke každému z nich je jednoduchý postup, jak se dostat ke žlutému kříži.
+
+tutorial_text9: (obrázek – tutorial6-1) F R U R' U' F' U2 F U R U' R' F'
+
+tutorial_text10: (obrázek – tutorial6-2) F U R U' R' F'
+tutorial_text11: (obrázek – tutorial6-3) F R U R' U' F'
+
+tutorial_text12: Nyní by vaše kostka měla vypadat takto - (obrázek – tutorial6-4)
+
+tutorial_text13: Pátým krokem je dokončení žluté strany. Pokud v tuto chvíli už nemáte složenou žlutou stranu, tak byste měli být v jednom z těchto stavů-
+tutorial_text14: 1) máte 0 žlutých rohů na svém místě, takže si kostku upravte tak, aby první pole směrem k vám na levé straně bylo žluté, šedivá strana na obrázku by měla být vaše přední (obrázek – tutorial7-1)
+
+tutorial_text15: 2) máte 1 žlutý roh na svém místě, takže si kostku upravte tak, aby pole v levém dolním rohu na horní straně bylo žluté (obrázek – tutorial7-2)
+tutorial_text16: 3) máte 2 žluté rohy na svém místě, takže si kostku upravte tak, aby pole směrem vlevo na přední stěně bylo žluté (obrázek – tutorial7-3)
+tutorial_text17: Pokud máte kostku správně upravenou, tak proveďte následující postup - R U R' U R U2 R'. Pokud nemáte složenou žlutou stranu, opakujte celý pátý krok.
+  Posledním krokem je dokončení celé kostky. Nyní když máte složenou žlutou stranu, tak záleží už pouze na třetí vrstvě vedlejších stran (modrá, červená, zelená, oranžová). Tu dokončíte pomocí dvou kroků. V prvním musí nastat jeden ze tří následujících stavů -
+
+tutorial_text18: Žádná z vedlejších stran nemá stejně barevné rohy ve třetí vrstvě. (obrázek – tutorial7-4)
+tutorial_text19: Jedna z vedlejších stran má stejně barevné rohy ve třetí vrstvě. Kostku si tedy upravte tak, abyste tuto stranu měli směrem od vás, například pohybem U. (obrázek – tutorial8-1)
+tutorial_text20: Více z vedlejších stran mají stejně barevné rohy. (obrázek – tutorial8-2)
+
+tutorial_text21: Pokud jste se ocitli v případu 1 nebo 2, proveďte následující pohyby - R' F R' B2 R F' R' B2 R2. A zkontrolujte, že nastala možnost 3, pokud ne opakujte pohyby.
+
+tutorial_text22: Nyní by měl nastat jeden ze tří stavů -
+tutorial_text23: U žádné ze stran není střed shodné barvy s rohy. (obrázek – tutorial8-3)
+tutorial_text24: U jedné ze stran je střed shodné barvy s rohy. Kostku si upravte tak, aby tato strana byla směrem od vás například pohybem U. (obrázek – tutorial8-4)
+tutorial_text25: U více stran je střed shodné barvy s rohy. (obrázek – tutorial8-5)
+tutorial_text26: Pokud je vaše kostka ve stavu 1 nebo prostřední pole směrem k vám a první pole na levé straně shodují v barvě a kostka je ve stavu 2 (obrázek – tutorial8-6)
+tutorial_text27: Tak proveďte následující pohyby - R2 U R U R' U' R' U' R' U R'. Pokud jste se dostali do některého z předchozích tří stavů, postupujte podle nich.
+  Pokud jste ve stavu 2 a nenastala předchozí popisovaná situace, tak proveďte následující - R U' R U R U R U' R' U' R2
+  Nyní byste se měli ocitnout ve třetím stavu, opakujte tedy pohyb U, dokud není vaše kostka složená.
+tutorial_text28: (obrázek – tutorial9)
+
+
+
+
+
+

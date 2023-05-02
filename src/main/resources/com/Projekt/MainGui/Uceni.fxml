@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="1440.0" maxWidth="2560.0" minHeight="720.0" minWidth="1280.0" prefHeight="1440.0" prefWidth="2560.0" styleClass="sideContent" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.UceniController">
+   <children>
+      <VBox prefHeight="1080.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="600.0" prefHeight="200.0" prefWidth="1910.0" styleClass="pozadiNadpisu">
+               <children>
+                  <VBox alignment="CENTER" minHeight="100.0" minWidth="0.0" prefHeight="211.0" prefWidth="1049.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nadpis" text="$tutorial_nadpis" textAlignment="CENTER" wrappingWidth="483.13671875">
+                           <font>
+                              <Font size="70.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="plainText" text="$tutorial_textFieldUp" wrappingWidth="1001.13671875">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="588.0" prefWidth="2560.0">
+               <children>
+                  <VBox minWidth="10.0" prefHeight="450.0" prefWidth="150.0" />
+                  <VBox alignment="CENTER" prefHeight="450.0" prefWidth="626.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nadpis2" text="$tutorial_nadpis3" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="450.0" prefWidth="1556.0">
+                     <children>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="566.0" prefWidth="1556.0" styleClass="sideContent">
+                           <content>
+                              <VBox prefHeight="6000.0" prefWidth="1554.0" styleClass="sideContent">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="213.0" prefWidth="600.0" styleClass="plainText" text="$tutorial_text1" textFill="WHITE" wrapText="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text2" textFill="WHITE" wrapText="true" />
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial1.png" />
+                                             </image></ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text3" textFill="WHITE" wrapText="true" />
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text4" textFill="WHITE" wrapText="true" />
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial3.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text5" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial3.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial4-1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text6" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial5-1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text7" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial5.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="213.0" prefWidth="600.0" styleClass="plainText" text="$tutorial_text8" textFill="WHITE" wrapText="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial6-1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text9" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial6-2.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text10" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial6-3.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text11" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text12" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial6-4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text12" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial6-4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text13" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text14" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial7-1.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text15" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial7-2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text16" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial7-3.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text17" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text18" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial7-4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text19" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-1.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text20" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text21" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text22" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text23" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-3.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text24" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-4.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text25" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-5.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text26" textFill="WHITE" wrapText="true"/>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial8-6.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text27" textFill="WHITE" wrapText="true"/>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                       <children>
+                                          <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Images/tutorial9.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="644.0" prefWidth="2560.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" />
+                  <VBox alignment="CENTER" prefHeight="524.0" prefWidth="664.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nadpis2" text="$tutorial_nadpis2" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="524.0" prefWidth="1570.0">
+                     <children>
+                        <ImageView fx:id="movesImageView" fitHeight="685.0" fitWidth="794.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/moves.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#zpatky" text="◄" />
+   </children>
+   <stylesheets>
+      <URL value="@css/MainSheet.css" />
+      <URL value="@css/TextSheet1.css" />
+   </stylesheets>
+</AnchorPane>

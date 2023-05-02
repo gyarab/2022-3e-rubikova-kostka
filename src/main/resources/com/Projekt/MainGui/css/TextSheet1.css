@@ -1,0 +1,35 @@
+    .nadpis{
+        -fx-font-family: "Arial";
+        -fx-font-size: 70px;
+        -fx-fill: white;
+    }
+
+    .nadpis2{
+       -fx-font-family: "Arial";
+       -fx-font-size: 50px;
+       -fx-fill: white;
+    }
+
+    .plainText{
+            -fx-font-family: "Arial";
+            -fx-font-size: 24px;
+            -fx-fill: white;
+    }
+
+    .pozadiNadpisu{
+        -fx-background-color:#430ea1;
+    }
+
+    .sideContent{
+        -fx-background-color:#3f3e40;
+    }
+
+    .text-area {
+        text-area-background: #3f3e40;
+        -fx-font-size: 3em;
+        -fx-text-fill: #1e88e5;
+    }
+
+    .text-area .content {
+        -fx-background-color: text-area-background;
+    }

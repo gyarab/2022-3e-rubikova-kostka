@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="1080.0" prefWidth="1920.0" styleClass="pane" stylesheets="@css/MainSheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.NapovedaController">
+  <children>
+      <Label layoutX="220.0" layoutY="29.0" prefHeight="49.0" prefWidth="139.0" style="-fx-alignment: center;" text="Nápověda" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#zpet" text="◄" />
+      <TextArea editable="false" layoutX="10.0" layoutY="78.0" prefHeight="318.0" prefWidth="581.0" text="V aplikaci Rubikova kostka máte možnost složit Rubikovu kostku ve 3D modelu,&#10;s ovládacím panelem přímo ve skládacím okně a nebo na klávesnici. Pro spuštění&#10;skládání kostky stiskněte na hlavním menu tlačítko Spustit. Objeví se vám okno s &#10;ovládacím systémem dole. Vedle něj se nacházejí dvě tlačítka. Tlačítko Zamíchat&#10;vám vždy náhodně zamíchá kostku (ikdyž není složená) a tlačítko Vyřešit vám zase&#10;kostku v jakémkoli stádiu postupně vyřeší.&#10;Na hlavním menu pod Spustit je tlačítko Nastavení, kde si vlastnoručně připravíte &#10;rozložení své vlastní kostky. Až si své rozložení uložíte, přesune vás aplikace do okna&#10;kde budete moct kostku skládat. &#10;Na hlavním menu je pod tlačítkem Nastavení další tlačítko, Učení. V sekci Učení vás &#10;Program seznámí s tutoriálem, jak složit Rubikovu kostku a následně s vámi projde &#10;krok po kroku jak složit kostku v 3D modelu.&#10;Přejeme hodně štěstí při skládání Rubikovy kostky." AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="78.0" />
+   </children>
+</AnchorPane>
