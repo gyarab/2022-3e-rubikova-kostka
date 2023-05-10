@@ -62,18 +62,15 @@ public class NastaveniController implements Initializable {
 
     @FXML
     private Label errorLabel;
+
+    @FXML
+    private MenuButton languageButton;
     
     @FXML
     private TextArea upozorneni;
 
-    FileChooser fileChooser = new FileChooser();
 
-    @FXML
-    public void loadImageOnAction(){
-        File file = fileChooser.showOpenDialog(new Stage());
-        Image image1 = new Image(file.toURI().toString());
-        imageView.setImage(image1);
-    }
+
 
     @FXML
     private String[] getBarvy() {
@@ -178,9 +175,37 @@ public class NastaveniController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        if(ContentManager.currLanguage == "czech") languageButton.setText("Čeština");
+        else languageButton.setText("English");
+        buildMenuButton();
+    }
+
+    public void buildMenuButton(){
         MenuItem hd = new MenuItem("1280x720");
         MenuItem fhd = new MenuItem("1920x1080");
         MenuItem shd = new  MenuItem("2560x1440");
+
+        MenuItem english = new MenuItem("English");
+        MenuItem czech = new MenuItem("Čeština");
+
+        czech.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                ContentManager.currLanguage = "czech";
+
+                Parent root = ContentManager.switchContent("Nastaveni");
+                CubeApp.mainStage.getScene().setRoot(root);
+            }
+        });
+
+        english.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                ContentManager.currLanguage = "english";
+                Parent root = ContentManager.switchContent("Nastaveni");
+                CubeApp.mainStage.getScene().setRoot(root);
+            }
+        });
 
         hd.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -215,22 +240,10 @@ public class NastaveniController implements Initializable {
                 }
             }
         });
+        languageButton.getItems().clear();
+        languageButton.getItems().addAll(english,czech);
         resButton.getItems().clear();
         resButton.getItems().addAll(hd,fhd,shd);
         resButton.setText((int)CubeApp.ACTUAL_WIDTH.get() + "x" + (int)CubeApp.ACTUAL_HEIGHT.get());
     }
-
-
-    @FXML
-    void fullScreenOnAction(ActionEvent event) {
-        CubeApp.mainStage.setFullScreen(!CubeApp.mainStage.isFullScreen());
-    }
-
-    @FXML
-    void resolutionOnAction(ActionEvent event) {
-
-    }
 }
-
-
-

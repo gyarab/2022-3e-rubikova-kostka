@@ -11,12 +11,12 @@ import java.util.Objects;
 public class ContentManager {
      public static File file;
      public static boolean isTutorial = false;
-
      public static String currLanguage = "czech";
 
-
     public static Parent switchContent(String fileName){
+        System.out.println(currLanguage);
         Map<String, Object> data = loadLanguageYaml(currLanguage);
+        System.out.println(data);
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(ContentManager.class.getResource(fileName + ".fxml"));
         loader.getNamespace().putAll(data);
@@ -29,9 +29,8 @@ public class ContentManager {
         System.out.println(root.getStylesheets());
 
         if(Objects.equals(fileName, "Uceni") || Objects.equals(fileName, "")){// TODO v budoucnu bude druhá podmínka nastavení
-
+            // bruh yapom2l jsem co sem tu cht2l ud2lat
         }
-
         return root;
     }
 

@@ -9,15 +9,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="1000.0" maxWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" styleClass="pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.KostkaController">
+<AnchorPane fx:id="anchorPane" maxHeight="1000.0" maxWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" styleClass="pane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.KostkaController">
    <children>
       <Pane fx:id="subScenePane" prefHeight="880.0" prefWidth="1920.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <AnchorPane layoutY="901.0" prefHeight="100.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <VBox layoutX="1797.0" layoutY="7.0" prefHeight="118.0" prefWidth="176.0" spacing="2.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="7.0">
+            <VBox layoutX="1797.0" layoutY="7.0" prefHeight="118.0" prefWidth="200.0" spacing="2.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="7.0">
                <children>
-                  <Button fx:id="zamichatButton" mnemonicParsing="false" onAction="#zamichatButtonOnAction" prefHeight="52.0" prefWidth="184.0" text="cube_zamichat" />
-                  <Button mnemonicParsing="false" onAction="#solveOnAction" prefHeight="52.0" prefWidth="180.0" text="cube_vyresit" />
+                  <Button fx:id="zamichatButton" mnemonicParsing="false" onAction="#zamichatButtonOnAction" prefHeight="52.0" prefWidth="190.0" text="$cube_zamichat" />
+                  <Button mnemonicParsing="false" onAction="#solveOnAction" prefHeight="52.0" prefWidth="190.0" text="$cube_vyresit" />
                </children>
             </VBox>
             <HBox layoutX="14.0" layoutY="10.0" prefHeight="80.0" prefWidth="600.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0">

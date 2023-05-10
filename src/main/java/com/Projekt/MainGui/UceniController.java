@@ -34,22 +34,10 @@ import java.util.ResourceBundle;
  * @author Tom
  */
 public class UceniController implements Initializable {
-    public ImageView imageView;
-    public AnchorPane rootPane;
     @FXML
     private ImageView movesImageView;
     @FXML
     private AnchorPane anchorPane;
-    @FXML
-    private Label label;
-    @FXML
-    private HBox logo;
-    Stage popUpStage  = new Stage();
-
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-
-    }
 
     @FXML
     private void zpatky(ActionEvent event) {
@@ -75,21 +63,16 @@ public class UceniController implements Initializable {
             anchorPane.getStylesheets().add(getClass().getResource("css/TextSheet1.css").toString());
             System.out.println(anchorPane.getStylesheets());
             Platform.runLater(() -> {
-
                 System.out.println(movesImageView.getFitWidth());
-
             });
-
         }
         else if(CubeApp.ACTUAL_WIDTH.get() < 2549 && CubeApp.ACTUAL_WIDTH.get() > 1500){
             movesImageView.setFitWidth(472);
             anchorPane.getStylesheets().remove(1);
-            anchorPane.getStylesheets().add(getClass().getResource("css/TextSheet3.css").toString());
+            anchorPane.getStylesheets().add(getClass().getResource("css/TextSheet2.css").toString());
             System.out.println(anchorPane.getStylesheets());
             Platform.runLater(() -> {
-
                 System.out.println(movesImageView.getFitWidth());
-
             });
         }else{
             movesImageView.setFitWidth(315);
@@ -97,15 +80,8 @@ public class UceniController implements Initializable {
             anchorPane.getStylesheets().add(getClass().getResource("css/TextSheet3.css").toString());
             System.out.println(anchorPane.getStylesheets());
             Platform.runLater(() -> {
-
                 System.out.println(movesImageView.getFitWidth());
-
             });
         }
-    }
-    @FXML
-    private void videoNavod(ActionEvent event) {
-        CubeApp.getHostServicesStatic().showDocument("https://www.youtube.com/watch?v=7Ron6MN45LY");
-
     }
 }

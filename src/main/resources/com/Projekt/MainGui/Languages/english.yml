@@ -4,8 +4,57 @@ lobby_nastaveni: SETTINGS
 cube_zamichat: SHUFFLE
 cube_vyresit: SOLVE
 tutorial_nadpis: TUTORIAL
-tutorial_textFieldUp: Toto je tutorial a Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce wisi. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Nam libero tempore, cum soluta
-tutorial_nadpis2: NOTACE POHYBŮ
-tutorial_nadpis3: POPIS POSTUPU
-tutorial_textField: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Pellentesque arcu. Integer malesuada. Praesent id justo in neque elementum ultrices. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Nulla est. Aliquam ante. Curabitur sagittis hendrerit ante. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Nullam dapibus fermentum ipsum. Aliquam erat volutpat.Vestibulum fermentum tortor id mi. Sed convallis magna eu sem. Proin mattis lacinia justo. Pellentesque ipsum. Praesent id justo in neque elementum ultrices. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Etiam posuere lacus quis dolor. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Et harum quidem rerum facilis est et expedita distinctio. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nullam at arcu a est sollicitudin euismod. Etiam bibendum elit eget erat. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu.Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Etiam quis quam. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Suspendisse nisl. Integer imperdiet lectus quis justo. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Phasellus rhoncus. Aliquam erat volutpat. Etiam bibendum elit eget erat. Phasellus et lorem id felis nonummy placerat. Maecenas aliquet accumsan leo. Vivamus ac leo pretium faucibus. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Praesent vitae arcu tempor neque lacinia pretium. In rutrum. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Fusce tellus. Mauris tincidunt sem sed arcu.Sed convallis magna eu sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Integer lacinia. Pellentesque arcu. Et harum quidem rerum facilis est et expedita distinctio. Mauris dictum facilisis augue. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Maecenas libero. Mauris elementum mauris vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Vestibulum fermentum tortor id mi. Nulla non lectus sed nisl molestie malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-tutorial_spustit: SPUSTIT
+tutorial_textFieldUp: Welcome to the Rubik's Cube tutorial. If you are a beginner, we recommend first reading the article about cube’s moves notation before proceeding with the actual solving.
+tutorial_nadpis2: MOVES NOTATION
+tutorial_nadpis3: SOLUTION
+tutorial_spustit: Start
+tutorial_text1: The notation for cube movements uses the first letters of each side, such as F for the front side, and so on. General movements are taken as clockwise turns, counter-clockwise turn is named as letter of the side with an apostrophe. Therefore, F is the front side turned clockwise, and F' is the front side turned counter-clockwise. The letters x, y, and z are used for turning the entire cube on its axis. X is the axis of sides R and L, Y is the axis of sides U and D, and Z is the axis of sides F and B.
+
+tutorial_text2: This solution is just one of many, but most existing solutions are built on very similar basics. The first step is to solve one of the sides, most commonly the white side, but you can choose whichever you prefer. This tutorial is written for starting with the white side as the D side.
+                The solution can be divided into 6 steps. The first step is to make the white cross, meaning you need to get to this pattern on the white side (obrázek – tutorial1)
+
+tutorial_text3: You can do that by getting the white edges around the yellow centre and then placing the white edges to the white centre based on the differently coloured centres (blue, green, orange, red) by rotating the yellow side. So, if you want to get a white edge with, for example, a red edge in the right position, you will rotate the yellow side until you have two red squares under the white edge, and then move the edge to the white side by double turning the red side. (obrázek – tutorial2)
+
+tutorial_text4: The second step is to complete the white side by inserting its corners. This is done using movements R U R' U', which are used to rotate the corresponding corner if it is oriented incorrectly or to place the corner in its position. At the end of this step, the cube should look like this (obrázek – tutorial3)
+
+tutorial_text5: The third step is to solve the second layer. This is done by inserting the correct edges between the correct sides. There are two cases for this step, and two specific sets of moves to get a specific edge from the top side to its place.
+
+
+tutorial_text6: (obrázek – tutorial4-1) U' L' U L U F U' F' (obrázek – tutorial4)
+
+tutorial_text7: (obrázek – tutorial5-1) U R U' R' U' F' U F (obrázek – tutorial5)
+
+tutorial_text8: If you find yourself in a situation where you have a edge correctly placed but wrongly oriented, use one of the procedures to insert a different corner, which will push out the needed cube.
+  The fourth step is to create the yellow cross. At this point, you should already have both layers solved, and on the yellow side, you should have one of the following patterns. Apply a specific set of moves to create the yellow cross depending on the pattern.
+
+tutorial_text9: (obrázek – tutorial6-1) F R U R' U' F' U2 F U R U' R' F'
+
+tutorial_text10: (obrázek – tutorial6-2) F U R U' R' F'
+tutorial_text11: (obrázek – tutorial6-3) F R U R' U' F'
+
+tutorial_text12: Your cube should now look like this (obrázek – tutorial6-4)
+
+tutorial_text13: The fifth step is to complete the yellow side. If you don't have the yellow side solved at this point, you should be in one of these stages-
+tutorial_text14: 1)	You have 0 yellow corners in place, so adjust the cube so that the first square in direction to you on the left side is yellow, and the grey side in the picture should be your front side (obrázek – tutorial7-1)
+
+tutorial_text15: 2)	You have 1 yellow corner in place, so adjust the cube so that the square in the bottom left corner on the top side is yellow (obrázek – tutorial7-2)
+tutorial_text16: 3)	You have 2 yellow corners in place, so adjust the cube so that the square on the left in the front side is yellow (obrázek – tutorial7-3)
+tutorial_text17: If you have the cube properly adjusted, perform the following sequence R U R' U R U2 R'. If you don‘t have the yellow side solved, repeat the entire fifth step.
+                The final step is to complete the entire cube. Now that you have the yellow side solved, it only depends on the third layer of the differently coloured sides (blue, red, green, orange). You will complete it using the two following steps. In the first step, one of these three situations should happen-
+
+tutorial_text18: 1)	None of the coloured sides have corners of the same colour in the third layer. (obrázek – tutorial7-4)
+tutorial_text19: 2)	One of the coloured sides has corners of the same colour in the third layer. Adjust the cube so that this side is facing away from you, for example by U move. (obrázek – tutorial8-1)
+tutorial_text20: 3)	More of the coloured sides have corners of the same colour. (obrázek – tutorial8-2)
+
+tutorial_text21: If you are in case 1 or 2, perform the following moves R' F R' B2 R F' R' B2 R2. And check that your cube is now in case 3. If not, repeat the moves.
+tutorial_text22: Now one of the following three situations should happen-
+tutorial_text23: 1)	None of the sides have the centre of the same colour as the corners. (obrázek – tutorial8-3)
+tutorial_text24: 2)	One of the sides has the centre of the same colour as the corners. Adjust the cube so that this side is facing away from you, for example by U move. (obrázek – tutorial8-4)
+tutorial_text25: 3)	More of the sides have the centre of the same colour as the corners. (obrázek – tutorial8-5)
+tutorial_text26: If your cube is in state 1 or the middle field facing you and the first field on the left side are the same colour and the cube is in state 2 (obrázek – tutorial8-6)
+
+tutorial_text27: Then perform the following moves R2 U R U R' U' R' U' R' U R'. If your cube is now in one of the previous three states, follow them.
+  If you are in state 2 and the previously described situation did not happen, perform the following set of moves R U' R U R U R U' R' U' R2
+  You should now be in the third state, so repeat the U move until your cube is solved.
+
+tutorial_text28: (obrázek – tutorial9)

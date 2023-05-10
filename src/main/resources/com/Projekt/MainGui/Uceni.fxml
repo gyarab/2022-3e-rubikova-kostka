@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="1440.0" maxWidth="2560.0" minHeight="720.0" minWidth="1280.0" prefHeight="1440.0" prefWidth="2560.0" styleClass="sideContent" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.UceniController">
+<AnchorPane fx:id="anchorPane" maxHeight="1440.0" maxWidth="2560.0" minHeight="720.0" minWidth="1280.0" prefHeight="1440.0" prefWidth="2560.0" styleClass="sideContent" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Projekt.MainGui.UceniController">
    <children>
       <VBox prefHeight="1080.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -34,6 +34,8 @@
                   </VBox>
                </children>
             </HBox>
+            <HBox alignment="CENTER"  minHeight="5.0" minWidth="0.0" prefHeight="50.0" prefWidth="1910.0">
+            </HBox>
             <HBox alignment="CENTER_LEFT" prefHeight="588.0" prefWidth="2560.0">
                <children>
                   <VBox minWidth="10.0" prefHeight="450.0" prefWidth="150.0" />
@@ -49,11 +51,15 @@
                               <VBox prefHeight="6000.0" prefWidth="1554.0" styleClass="sideContent">
                                  <children>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="213.0" prefWidth="600.0" styleClass="plainText" text="$tutorial_text1" textFill="WHITE" wrapText="true" />
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text2" textFill="WHITE" wrapText="true" />
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -63,6 +69,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text3" textFill="WHITE" wrapText="true" />
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -73,6 +81,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text4" textFill="WHITE" wrapText="true" />
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -83,6 +93,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text5" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -93,6 +105,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -108,6 +122,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -123,11 +139,15 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="213.0" prefWidth="600.0" styleClass="plainText" text="$tutorial_text8" textFill="WHITE" wrapText="true" />
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -138,6 +158,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -148,6 +170,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -158,6 +182,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text12" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -168,6 +194,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text12" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -178,11 +206,15 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text13" textFill="WHITE" wrapText="true"/>
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text14" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -193,6 +225,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text15" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -203,6 +237,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text16" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -213,11 +249,15 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text17" textFill="WHITE" wrapText="true"/>
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text18" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -228,6 +268,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text19" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -238,6 +280,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text20" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -248,16 +292,22 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text21" textFill="WHITE" wrapText="true"/>
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text22" textFill="WHITE" wrapText="true"/>
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text23" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -268,6 +318,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text24" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -278,6 +330,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text25" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -288,6 +342,8 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text26" textFill="WHITE" wrapText="true"/>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
@@ -298,11 +354,15 @@
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
-                                          <Label prefHeight="200.0" prefWidth="530.0" styleClass="plainText" text="$tutorial_text27" textFill="WHITE" wrapText="true"/>
+                                          <Label prefHeight="200.0" prefWidth="1000.0" styleClass="plainText" text="$tutorial_text27" textFill="WHITE" wrapText="true"/>
                                        </children>
                                     </HBox>
                                     <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="1554.0">
+                                    <HBox prefHeight="50.0" prefWidth="100">
+                                    </HBox>
                                        <children>
                                           <ImageView fitHeight="209.0" fitWidth="248.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -319,9 +379,9 @@
                   </VBox>
                </children>
             </HBox>
-            <HBox prefHeight="644.0" prefWidth="2560.0">
+            <HBox prefHeight="644.0" prefWidth="2560.0" alignment="CENTER_LEFT">
                <children>
-                  <VBox prefHeight="200.0" prefWidth="100.0" />
+                  <VBox minWidth="10.0" prefHeight="200.0" prefWidth="150.0" />
                   <VBox alignment="CENTER" prefHeight="524.0" prefWidth="664.0">
                      <children>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nadpis2" text="$tutorial_nadpis2" />

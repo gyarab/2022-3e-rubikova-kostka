@@ -1,14 +1,11 @@
 package com.Projekt.MainGui;
 
 import javafx.application.Application;
-import javafx.application.HostServices;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Region;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -16,34 +13,20 @@ import javafx.stage.Stage;
 
 public class CubeApp extends Application {
     public static Stage mainStage;
-
     public static DoubleProperty ACTUAL_WIDTH = new SimpleDoubleProperty();;
     public static DoubleProperty ACTUAL_HEIGHT = new SimpleDoubleProperty();;
-
     public static double MAX_WIDTH;
     public static double MAX_HEIGHT;
-
     public static double MIN_WIDTH = 1280;
     public static double MIN_HEIGHT = 720;
-
-    //servisy pro pozdejsi otevreni odkazu
-    static HostServices hostServicesStatic;
     static Rectangle2D screenBounds;
 
     public static void main(String[] args) {
         launch();
     }
 
-    public static HostServices getHostServicesStatic() {
-        return hostServicesStatic;
-    }
-
-
-
     @Override
     public void start(Stage stage) {
-        //predvyplneni servis pro pozdejsi pouziti (odkaz na video)
-        hostServicesStatic = getHostServices();
         mainStage = stage;
 
         screenBounds = Screen.getPrimary().getVisualBounds();
@@ -53,8 +36,6 @@ public class CubeApp extends Application {
 
         ACTUAL_WIDTH.set(MAX_WIDTH);
         ACTUAL_HEIGHT.set(MAX_HEIGHT);
-
-
 
         stage.setResizable(false);
 
@@ -96,13 +77,12 @@ public class CubeApp extends Application {
 
     }
 
-    public static String setResolution(double width, double height) {
+    public static void setResolution(double width, double height) {
         if(mainStage.isFullScreen()) throw new RuntimeException("NOT AVAILABLE IN FULLSCREEN MODE");
         if(width> MAX_WIDTH || height > MAX_WIDTH ) throw new RuntimeException("UNAVAILABLE");
         else{
             mainStage.setWidth(width);
             mainStage.setHeight(height);
-            return "";
         }
     }
 }
