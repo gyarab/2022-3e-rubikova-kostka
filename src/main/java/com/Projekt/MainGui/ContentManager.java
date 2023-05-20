@@ -35,18 +35,10 @@ public class ContentManager {
     }
 
     public static Map<String, Object> loadLanguageYaml(String language){
-        file = new File(ContentManager.class.getResource("Languages/"+language + ".yml").getFile());
         InputStream inputStream = null;
-        try {
-            inputStream = new FileInputStream(file);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+        inputStream = (ContentManager.class.getResourceAsStream("Languages/"+language + ".yml"));
         Yaml yaml = new Yaml();
         Map<String, Object> data = yaml.load(inputStream);
         return data;
     }
-
-
-
 }
