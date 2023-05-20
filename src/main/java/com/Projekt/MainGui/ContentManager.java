@@ -16,7 +16,7 @@ public class ContentManager {
     public static Parent switchContent(String fileName){
         System.out.println(currLanguage);
         Map<String, Object> data = loadLanguageYaml(currLanguage);
-        System.out.println(data);
+        //System.out.println(data);
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(ContentManager.class.getResource(fileName + ".fxml"));
         loader.getNamespace().putAll(data);
@@ -26,7 +26,7 @@ public class ContentManager {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(root.getStylesheets());
+        //System.out.println(root.getStylesheets());
 
         if(Objects.equals(fileName, "Uceni") || Objects.equals(fileName, "")){// TODO v budoucnu bude druhá podmínka nastavení
             // bruh yapom2l jsem co sem tu cht2l ud2lat
