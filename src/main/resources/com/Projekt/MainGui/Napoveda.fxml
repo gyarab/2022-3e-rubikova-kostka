@@ -9,7 +9,7 @@
    <children>
       <Label alignment="TOP_LEFT" layoutX="9.0" layoutY="66.0" prefHeight="52.0" prefWidth="582.0" text="$napoveda" textOverrun="CLIP" wrapText="true" />
       <Label alignment="TOP_LEFT" layoutX="8.0" layoutY="131.0" prefHeight="135.0" prefWidth="582.0" text="$napoveda2" textOverrun="CLIP" wrapText="true" />
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#zpet" prefHeight="28.0" prefWidth="27.0" stylesheets="@css/MainSheet.css" text="◄">
+      <Button styleClass="buttonText2" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#zpet" prefHeight="28.0" prefWidth="27.0" stylesheets="@css/MainSheet.css" text="◄">
          <font>
             <Font size="9.0" />
          </font>

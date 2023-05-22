@@ -38,7 +38,7 @@
                   <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
                      <children>
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
-                        <Button fx:id="kostkaButton" minHeight="55.0" mnemonicParsing="false" onAction="#kostkaOnAction" prefHeight="75.0" prefWidth="640.0" text="$lobby_spustit" />
+                        <Button fx:id="kostkaButton" minHeight="55.0" mnemonicParsing="false" onAction="#kostkaOnAction" styleClass="buttonText" prefHeight="75.0" prefWidth="640.0" text="$lobby_spustit" />
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
                      </children>
                   </HBox>
@@ -46,7 +46,7 @@
                   <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
                      <children>
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
-                        <Button minHeight="45.0" mnemonicParsing="false" onAction="#uceni" prefHeight="75.0" prefWidth="320.0" text="$lobby_tutorial" />
+                        <Button minHeight="45.0" mnemonicParsing="false" onAction="#uceni" styleClass="buttonText" prefHeight="75.0" prefWidth="320.0" text="$lobby_tutorial" />
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
                      </children>
                   </HBox>
@@ -54,7 +54,7 @@
                   <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
                      <children>
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
-                        <Button minHeight="45.0" mnemonicParsing="false" onAction="#nastaveni" prefHeight="75.0" prefWidth="320.0" text="$lobby_nastaveni" />
+                        <Button minHeight="45.0" mnemonicParsing="false" onAction="#nastaveni" styleClass="buttonText" prefHeight="75.0" prefWidth="320.0" text="$lobby_nastaveni" />
                         <HBox minWidth="5.0" prefHeight="60.0" prefWidth="200.0" />
                      </children>
                   </HBox>
@@ -70,7 +70,7 @@
             <VBox minHeight="5.0" prefHeight="200.0" prefWidth="100.0" />
          </children>
       </VBox>
-      <Button minHeight="45.0" mnemonicParsing="false" onAction="#napoveda" prefHeight="45.0" prefWidth="45.0" text="?" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+      <Button minHeight="45.0" mnemonicParsing="false" onAction="#napoveda" styleClass="buttonText" prefHeight="45.0" prefWidth="45.0" text="?" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
          <font>
             <Font size="13.0" />
          </font>

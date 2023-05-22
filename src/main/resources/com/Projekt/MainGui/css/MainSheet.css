@@ -8,11 +8,21 @@
             -fx-background-insets: 0,1,2,0;
 
             -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+
+    }
+
+    .buttonText{
+        -fx-font-family: "Arial";
+        -fx-text-fill: linear-gradient(white, #d0d0d0);
+        -fx-font-size: 28px;
+    }
+
+    .buttonText2{
             -fx-font-family: "Arial";
             -fx-text-fill: linear-gradient(white, #d0d0d0);
-            -fx-font-size: 28px;
-            -fx-padding: 10 20 10 20;
-    }
+            -fx-font-size: 10px;
+        }
 
     .pane{
         -fx-background-image: url("../Images/background2.jpg");

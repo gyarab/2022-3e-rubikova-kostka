@@ -400,7 +400,7 @@
             </HBox>
          </children>
       </VBox>
-      <Button mnemonicParsing="false" onAction="#zpatky" text="◄" />
+      <Button styleClass="buttonText" mnemonicParsing="false" onAction="#zpatky" text="◄" />
    </children>
    <stylesheets>
       <URL value="@css/MainSheet.css" />
