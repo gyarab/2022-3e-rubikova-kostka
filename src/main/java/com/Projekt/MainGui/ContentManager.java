@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Objects;
 
 public class ContentManager {
-     public static File file;
      public static boolean isTutorial = false;
      public static String currLanguage = "czech";
 

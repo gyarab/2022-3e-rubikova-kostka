@@ -47,27 +47,13 @@ public class LobbyController implements Initializable {
 
     @FXML
     private void napoveda(ActionEvent event) {
-
         //changeContent("Napoveda");
+        //popUpNapoveda.close();
+Parent p = ContentManager.switchContent("Napoveda");
+
+        Scene c = new Scene(p,600,280);
 
 
-    //    popUpNapoveda.close();
-
-        Text text = new Text();
-        text.setText("TADY BUDE MNOU NAPSANÁ NÁPOVĚDA");
-        text.setX(50);
-        text.setY(50);
-        Button button = new Button();
-        button.setText("<-");
-
-        Pane d = new Pane();
-        d.getChildren().add(button);
-        d.getChildren().add(text);
-        Scene c = new Scene(d, 500,200);
-
-        button.setOnAction(e -> {
-            popUpNapoveda.close();
-        });
 
         popUpNapoveda.setTitle("Nápověda");
         popUpNapoveda.setScene(c);

@@ -5,10 +5,6 @@
  */
 package com.Projekt.MainGui;
 
-/**
- * @author Tom
- */
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -24,29 +20,15 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- *
- * @author Tom
- */
 public class NapovedaController implements Initializable {
-
     @FXML
     private AnchorPane anchorPane;
 
-
     @FXML
-    private Label label;
-
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-
+    void zpet(ActionEvent event) {
+        ((Stage) anchorPane.getScene().getWindow()).close();
     }
 
-    @FXML
-    private void zpet(ActionEvent event) {
-        Parent root = ContentManager.switchContent("Lobby");
-        CubeApp.mainStage.getScene().setRoot(root);
-    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

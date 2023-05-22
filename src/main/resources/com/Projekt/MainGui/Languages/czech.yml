@@ -55,3 +55,6 @@ tutorial_text27: Tak proveďte následující pohyby - R2 U R U R' U' R' U' R' U
   Pokud jste ve stavu 2 a nenastala předchozí popisovaná situace, tak proveďte následující - R U' R U R U R U' R' U' R2
   Nyní byste se měli ocitnout ve třetím stavu, opakujte tedy pohyb U, dokud není vaše kostka složená.
 tutorial_text28: (obrázek – tutorial9)
+
+napoveda: Vítejte v učebním programu pro skládání Rubikovy kostky. Tento program slouží primárně pro ty, kdo s Rubikovou kostkou začínají.
+napoveda2:   Pro spuštění kostky samotné stiskněte tlačítko „SPUSTIT“, to vám otevře prostředí, ve kterém můžete s kostkou manipulovat, jak chcete. Otáčet strany kostky můžete pomocí tlačítek na spodní liště nebo pomocí pravého tlačítka na myši. Tlačítko „ZAMÍCHAT“ slouží k náhodnému zamíchání kostky a tlačítko „VYŘEŠIT“ vám vypíše řešení s jednotlivými kroky podle tutoriálu. Tutorial spustíte v hlavním menu pomocí tlačítka „TUTORIAL“, zde je vysvětlena teorie skládání kostky. V nastavení si můžete přepnout jazyk či upravit rozlišení programu.

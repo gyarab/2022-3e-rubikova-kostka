@@ -58,3 +58,7 @@ tutorial_text27: Then perform the following moves R2 U R U R' U' R' U' R' U R'. 
   You should now be in the third state, so repeat the U move until your cube is solved.
 
 tutorial_text28: (obrázek – tutorial9)
+
+napoveda: Welcome to the educational program for solving the Rubik's Cube. This program is intended primarily for those who are beginning with the Rubik's Cube.
+
+napoveda2: To start manipulating the cube itself, press the "START" button which will open the Cube’s environment where you can move with it as you wish. You can rotate the sides of the cube using the buttons on the bottom toolbar or using the right mouse button. The "SHUFFLE" button is used to generate random shuffle for the cube, and the "SOLVE" button will display the solution with individual steps using the tutorial. You can start the tutorial itself in the main menu by choosing the "TUTORIAL" button, the tutorial explains the theory of solving the cube. In the settings, you can switch the language or adjust the program's resolution.
